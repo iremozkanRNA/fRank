@@ -4,8 +4,9 @@ TSS Annotation and Ranking Script
 This repository contains an R script for annotating transcription start sites (TSS) and ranking them based on enrichment factors and step heights. The script processes data from TSSpredator and gene annotation files to identify and rank primary and secondary TSS across different genomic conditions.
 Prerequisites
 Before running the script, ensure you have the following R packages installed:
-	•	`dplyr`
-	•	`tibble`
+`dplyr`
+`tibble`
+
 You can install them using:
 install.packages(c("dplyr", "tibble"))
 
