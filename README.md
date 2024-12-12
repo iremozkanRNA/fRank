@@ -9,7 +9,7 @@ Before running the script, ensure you have the following R packages installed:
 You can install them using:
 install.packages(c("dplyr", "tibble"))
 
-Script Overview
+**Script Overview**
 1.	Setup and Data Loading:
 Clears the R environment.
 Loads necessary libraries.
@@ -39,10 +39,12 @@ Ranks secondary TSS similarly to primary ones.
 Combines primary and secondary ranked data.
 Writes the final annotated and ranked data to a CSV file (`ChlData_fRanked.csv`).
 
-Usage
+**Usage**
 To run the script, ensure your working directory is set correctly, and that the input files (`ChlData_Cleaned.csv` and `NC_003028.v3.17.ncrna.genes`) are available in the specified directory. You can change these names according to your corresponding TSSpredator file obtained and annotation file, respectively.
 Execute the script in R or RStudio to perform the annotation and ranking process. The output will be saved as `ChlData_fRanked.csv`.
-Important Notes
+
+**Important Notes**
+
 The script assumes specific column names in the input files; ensure your files match these expectations.
 Adjust paths and filenames as necessary to suit your local setup.
 Review comments within the script for detailed explanations of each step.
