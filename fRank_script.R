@@ -2,7 +2,7 @@ rm(list = ls())
 lapply(c("dplyr", "tibble"), library, character.only=T)
 
 # Set your working directory
-setwd("~/Desktop/Stuff/AMeyer_Lab/Experiment_results/5seq/TSSPredIremOutput/")
+setwd("path/to/your/TSSpreditoroutput/files")
 
 # Read your TSSpreditor file output.
 BigData <- read.csv("ChlData_Cleaned.csv", header = T)
