@@ -80,7 +80,7 @@ for (i in 1:nrow(comp)) {
     ######       First Annotate 5'UTR     ######
     # Check if there's at least 500 bp between genes
     if (!is.na(genes.comp$to[k]) && !is.na(genes.comp$from[k + 1])){
-      # Check if there's at least 300 bp between genes
+      # Check if there's at least 500 bp between genes
       if (genes.comp$to[k + 1] - genes.comp$from[k] >= 500) {
         #Then check following conditions are met
         if (
